@@ -1,0 +1,6 @@
+<Definitions>
+  <MapDefinition name="World">
+    <SpawnInfo actor="SpawnPoint" position="0.0,0.0,6.5" orientation="0.0,0.0,0.0" />
+    <SpawnInfo actor="Enemy2" position="30.5,10.5,6.5" orientation="270.0,0.0,0.0" />
+  </MapDefinition>
+</Definitions>

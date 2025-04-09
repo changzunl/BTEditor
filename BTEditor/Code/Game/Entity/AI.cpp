@@ -99,7 +99,7 @@ void AI::SetMoveToRadius(float radius)
 
 void AI::MoveTo(const IntVec2& goal)
 {
-    if (m_goal != goal)
+    if (!m_pathfinder || m_goal != goal)
     {
         m_goal = goal;
         delete m_pathfinder;
